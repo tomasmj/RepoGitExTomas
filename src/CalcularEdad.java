@@ -1,5 +1,9 @@
 import java.util.Arrays;
-
+/**
+ * clase para calcular edad pasada en el array
+ * @author alumno
+ *
+ */
 public class CalcularEdad {
 	private int [] edad;
 
@@ -14,7 +18,10 @@ public class CalcularEdad {
 	public void setEdad(int[] edad) {
 		this.edad = edad;
 	}
-	
+	/**
+	 * metodo para calcular las edades que les pasemos en el array
+	 * @param edad
+	 */
 	public void calcularEdades(int [] edad) {
 		int menores=0, mayores=0, jubilados=0;
 		for(int i=0;i<edad.length;i++) {
