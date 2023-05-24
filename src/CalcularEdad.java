@@ -20,10 +20,10 @@ public class CalcularEdad {
 		for(int i=0;i<edad.length;i++) {
 			if(edad[i]<18) {
 				menores++;
-			}else if(edad[i]>=18) {
-				mayores++;
 			}else if(edad[i]>=65) {
 				jubilados++;
+			}else if(edad[i]>=18) {
+				mayores++;
 			}
 		}
 		System.out.println("Menores de edad:" + menores + " Mayores de edad:" + mayores + " Jubilados:" + jubilados);
